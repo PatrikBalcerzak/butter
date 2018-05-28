@@ -1,0 +1,58 @@
+body { /* Hur sidan ska se ut padding margin backgrunds bild */
+  margin: 0 auto;
+    width: 600px;
+    padding: 0;
+    background-color: #DFE2DB;
+    background-image: url(img/Butter.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: lato;  
+}
+ul { /* Det är här hela navbaren ligger hur den ska se ut och postionen färgen på den */
+    list-style-type: none;
+    padding: 10;
+    overflow: hidden;
+    background-color: #DFE2DB;
+    float: none;
+    text-align: center;
+    font-family: lato; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DFE2DB;
+}
+    
+li { /* Den knuffar logout knappen åt höger */
+    float: left;
+}
+
+li a { /*Det är stylen för knapparna att dom ska vara runda texten centrerad padding etc. */
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: lato;
+}
+   /* Hover effekten på knapparna är att den ändrar färg */
+li a:hover {
+    background-color: #DAC83E;
+}
+
+.active { /* nav baren är från w3schools så jag fick göra om den några av knapparna var aktiva hela tiden darför finns den i css här så färgen matchar med navbaren*/
+    background-color: #DFE2DB;
+}
+
+ /* Det här är den svarta rutan där jag använde mig av rgba färg och fick fixa till den lite så den blev snygg så den tex inte slår i navbaren eller är förkort för texten */
+.text {
+     align-content: center;
+    width: auto;
+    color: aliceblue;
+    padding: 30px 30px;
+    background-color: rgba(0, 0, 0, 0.55);
+    margin-top: 10%;
+    height: 1100px;   
+}
